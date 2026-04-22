@@ -25,6 +25,7 @@
     "node": ">=18"
   },
   "files": [
+    "assets",
     "bin",
     "README.md",
     "LICENSE"

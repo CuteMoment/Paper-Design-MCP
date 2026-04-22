@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" width="64" height="64" alt="Paper MCP logo" />
+</p>
+
 # Paper MCP
 
 A LobeHub-friendly MCP wrapper for Paper Desktop's local MCP server.
@@ -17,6 +21,10 @@ It intentionally exposes `tools/list` without requiring Paper Desktop to be runn
 - Node.js 18 or newer
 - Paper Desktop running locally
 - A Paper file open in Paper Desktop
+
+## Logo
+
+The logo asset in `assets/logo.png` is derived from Paper's official favicon at `https://paper.design/favicon.ico`.
 
 ## LobeHub / LobeChat Install Config
 
