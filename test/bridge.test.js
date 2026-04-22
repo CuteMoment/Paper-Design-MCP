@@ -76,7 +76,7 @@ await new Promise((resolve) => {
 });
 
 const { port } = server.address();
-const child = spawn(process.execPath, ['bin/paper-design-mcp.js'], {
+const child = spawn(process.execPath, ['bin/paper-mcp.js'], {
   env: {
     ...process.env,
     PAPER_MCP_URL: `http://127.0.0.1:${port}/mcp`
@@ -96,7 +96,7 @@ try {
 
   const initializeResponse = await readJsonLine(child.stdout);
   assert.equal(initializeResponse.id, 1);
-  assert.equal(initializeResponse.result.serverInfo.name, 'paper-design-mcp');
+  assert.equal(initializeResponse.result.serverInfo.name, 'paper-mcp');
 
   child.stdin.write(
     `${JSON.stringify({

@@ -244,7 +244,7 @@ function arraySchema(items, description) {
 }
 
 function log(message) {
-  process.stderr.write(`[paper-design-mcp] ${message}\n`);
+  process.stderr.write(`[paper-mcp] ${message}\n`);
 }
 
 function writeMessage(message) {
@@ -371,7 +371,7 @@ async function ensurePaperInitialized() {
     protocolVersion: MCP_PROTOCOL_VERSION,
     capabilities: {},
     clientInfo: {
-      name: 'paper-design-mcp',
+      name: 'paper-mcp',
       version: '0.1.0'
     }
   });
@@ -452,7 +452,7 @@ async function handleRequest(message) {
           resources: {}
         },
         serverInfo: {
-          name: 'paper-design-mcp',
+          name: 'paper-mcp',
           version: '0.1.0'
         }
       };

@@ -1,14 +1,14 @@
 {
-  "name": "paper-design-mcp",
+  "name": "paper-mcp",
   "version": "0.1.0",
-  "description": "A stdio MCP bridge for Paper Desktop's local Streamable HTTP MCP server.",
+  "description": "A stdio MCP wrapper for Paper Desktop's local Streamable HTTP MCP server.",
   "type": "module",
   "bin": {
-    "paper-design-mcp": "bin/paper-design-mcp.js"
+    "paper-mcp": "bin/paper-mcp.js"
   },
   "scripts": {
-    "start": "node bin/paper-design-mcp.js",
-    "check": "node --check bin/paper-design-mcp.js",
+    "start": "node bin/paper-mcp.js",
+    "check": "node --check bin/paper-mcp.js",
     "test": "node test/bridge.test.js"
   },
   "keywords": [

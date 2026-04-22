@@ -1,4 +1,4 @@
-# Paper Design MCP
+# Paper MCP
 
 A LobeHub-friendly MCP wrapper for Paper Desktop's local MCP server.
 
@@ -25,9 +25,9 @@ Use this JSON in LobeChat Desktop's custom plugin quick import:
 ```json
 {
   "mcpServers": {
-    "paper-design-mcp": {
+    "paper-mcp": {
       "command": "npx",
-      "args": ["-y", "paper-design-mcp@latest"]
+      "args": ["-y", "paper-mcp@latest"]
     }
   }
 }
@@ -38,9 +38,9 @@ If Paper Desktop uses a custom MCP URL:
 ```json
 {
   "mcpServers": {
-    "paper-design-mcp": {
+    "paper-mcp": {
       "command": "npx",
-      "args": ["-y", "paper-design-mcp@latest"],
+      "args": ["-y", "paper-mcp@latest"],
       "env": {
         "PAPER_MCP_URL": "http://127.0.0.1:29979/mcp"
       }
@@ -117,7 +117,7 @@ Paper MCP can read and write the currently open Paper document. Review tool call
 Name:
 
 ```text
-Paper Design MCP
+Paper MCP
 ```
 
 Description:
@@ -143,9 +143,9 @@ Install:
 ```json
 {
   "mcpServers": {
-    "paper-design-mcp": {
+    "paper-mcp": {
       "command": "npx",
-      "args": ["-y", "paper-design-mcp@latest"]
+      "args": ["-y", "paper-mcp@latest"]
     }
   }
 }
