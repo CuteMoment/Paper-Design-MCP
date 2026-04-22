@@ -1,0 +1,32 @@
+{
+  "name": "paper-design-mcp",
+  "version": "0.1.0",
+  "description": "A stdio MCP bridge for Paper Desktop's local Streamable HTTP MCP server.",
+  "type": "module",
+  "bin": {
+    "paper-design-mcp": "bin/paper-design-mcp.js"
+  },
+  "scripts": {
+    "start": "node bin/paper-design-mcp.js",
+    "check": "node --check bin/paper-design-mcp.js",
+    "test": "node test/bridge.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "paper",
+    "paper-design",
+    "lobechat",
+    "lobehub"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ]
+}
